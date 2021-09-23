@@ -1,0 +1,56 @@
+*{
+    margin:0;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.banner{
+flex:0.4;
+display: grid;
+place-items: center;
+background:#8d93ab;
+}
+.container{
+    flex:0.6;
+    display: grid;
+    background-color:#393b44;
+    place-items: center;
+}
+
+.banner h1{
+    color:white;
+    }
+
+.container input[type=text] {
+    width: 60vw;
+    line-height: 100%;
+    border:none;
+    
+}
+.container input[type=text]:focus {
+   outline:none;
+}
+.container input[type=submit] {
+    background:white;
+    border:none;
+ }
+ .container input[type=submit]:focus {
+    outline:none;
+ }
+
+
+.container form{
+    display: grid;
+    place-items: center;
+}
+.container div{
+    background:white;
+    padding:10px;
+    border-radius: 20px;
+}
